@@ -16,15 +16,24 @@ his Python program simulates a basic automated vending machine. The machine allo
 1. Selecting an Item
 When a user selects an item and provides sufficient money, the output will be as follows:
 
-"""Available items:
+Available items:
+
 Item A - Price: $1
+
 Item B - Price: $2
+
 Item C - Price: $3
 
 Enter the item code to select (A, B, C) or type 'exit' to leave: A
+
 Enter the quantity of the item you need: 2
+
 Insert money ($2 more required): $3
+
 Do you want to confirm the payment (y/n): y
+
 Dispensing item A. Your change is $1.0
-Do you want to add the change to the shopping card (yes/no): no
-Take this change: $1.0"""
+
+Do you want to add the chan ge to the shopping card (yes/no): no
+
+Take this change: $1.0

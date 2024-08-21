@@ -13,7 +13,7 @@ his Python program simulates a basic automated vending machine. The machine allo
 - **Error Handling:** Handles invalid inputs and insufficient funds.
 
 ## Expected Outputs
-*1. Selecting an Item:
+'''1. Selecting an Item:
 When a user selects an item and provides sufficient money, the output will be as follows:
 
 Available items:
@@ -68,4 +68,5 @@ ValueError: invalid literal for int() with base 10: 'two'
 Insert money ($3 more required): ABC
 
 ValueError: could not convert string to float: 'abc'
+'''
 

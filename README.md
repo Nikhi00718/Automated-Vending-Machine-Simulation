@@ -13,7 +13,7 @@ his Python program simulates a basic automated vending machine. The machine allo
 - **Error Handling:** Handles invalid inputs and insufficient funds.
 
 ## Expected Outputs
-1. Selecting an Item
+#1. Selecting an Item:
 When a user selects an item and provides sufficient money, the output will be as follows:
 
 Available items:
@@ -34,6 +34,38 @@ Do you want to confirm the payment (y/n): y
 
 Dispensing item A. Your change is $1.0
 
-Do you want to add the chan ge to the shopping card (yes/no): no
+Do you want to add the channge to the shopping card (yes/no): no
 
 Take this change: $1.0
+
+#2. Invalid Item Selection:
+If the user inputs an invalid item code, the script will display an error message:
+
+Enter the item code to select (A, B, C) or type 'exit' to leave: D
+
+Invalid selection. Please try again.
+
+#3. Insufficient Funds:
+If the user does not initially insert enough money, the script will prompt for additional funds:
+
+Enter the item code to select (A, B, C) or type 'exit' to leave: B
+
+Enter the quantity of the item you need: 3
+
+Insert money ($6 more required): $5
+
+Insert money ($1 more required): $1
+
+##Expected Errors
+#1.Non-Numeric Input for Quantity:
+
+Enter the quantity of the item you need: two
+
+ValueError: invalid literal for int() with base 10: 'two'
+
+#2.Non-Numeric Input for Money:
+
+Insert money ($3 more required): ABC
+
+ValueError: could not convert string to float: 'abc'
+

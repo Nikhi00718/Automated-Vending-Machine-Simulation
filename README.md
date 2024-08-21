@@ -1,10 +1,30 @@
-# Automated-Vending-Machine-Simulation
-This Python program simulates a basic automated vending machine. The machine allows users to select items, insert money, and dispense items. The program makes use of for and while loops, as well as break and continue statements, to control the vending process.
+# Vending Machine Simulator
 
-Key Features:
-Item Selection: Users can choose from a list of available items, each with a specific code and price.
-Payment System: Users are prompted to insert money based on the total cost of the selected item and quantity. The program keeps track of the total money inserted.
-Transaction Confirmation: Before finalizing the purchase, users can confirm or cancel the payment.
-Change Handling: If the payment exceeds the required amount, the program calculates the change and provides an option for the user to add the change to the shopping card for future purchases.
-Continuous Operation: The program runs in a loop, allowing multiple transactions until the user decides to exit.
-This program is a simple example of how basic control flow structures in Python can be used to simulate real-world scenarios such as a vending machine. It is designed for educational purposes, demonstrating the use of loops and conditional statements to manage user inputs and transactions.
+## Description
+
+his Python program simulates a basic automated vending machine. The machine allows users to select items, insert money, and dispense items. The program makes use of for and while loops, as well as break and continue statements, to control the vending process.
+
+## Features
+
+- **Item Selection:** Choose items from a predefined list using item codes.
+- **Payment Handling:** Insert money until the total amount covers the cost of the selected items.
+- **Transaction Confirmation:** Confirm or cancel the transaction before finalizing the purchase.
+- **Change Management:** Calculate and manage change, with an option to retain change for future purchases.
+- **Error Handling:** Handles invalid inputs and insufficient funds.
+
+Expected Outputs
+1. Selecting an Item
+When a user selects an item and provides sufficient money, the output will be as follows:
+
+"""Available items:
+Item A - Price: $1
+Item B - Price: $2
+Item C - Price: $3
+
+Enter the item code to select (A, B, C) or type 'exit' to leave: A
+Enter the quantity of the item you need: 2
+Insert money ($2 more required): $3
+Do you want to confirm the payment (y/n): y
+Dispensing item A. Your change is $1.0
+Do you want to add the change to the shopping card (yes/no): no
+Take this change: $1.0"""

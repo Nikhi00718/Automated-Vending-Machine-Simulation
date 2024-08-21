@@ -12,7 +12,7 @@ his Python program simulates a basic automated vending machine. The machine allo
 - **Change Management:** Calculate and manage change, with an option to retain change for future purchases.
 - **Error Handling:** Handles invalid inputs and insufficient funds.
 
-Expected Outputs
+## Expected Outputs
 1. Selecting an Item
 When a user selects an item and provides sufficient money, the output will be as follows:
 

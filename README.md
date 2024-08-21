@@ -54,10 +54,11 @@ Enter the quantity of the item you need: 3
 
 Insert money ($6 more required): $5
 
-Insert money ($1 more required): $1
+Insert money ($1 more required): $1'''
 
 ##Expected Errors
-*1.Non-Numeric Input for Quantity:
+
+'''*1.Non-Numeric Input for Quantity:
 
 Enter the quantity of the item you need: two
 
